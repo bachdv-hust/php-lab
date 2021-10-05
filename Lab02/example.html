@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>About Lab02</title>
+    </head>
+    <body>
+        <h2>About Information</h2>
+        <form action="exmpale.php" method="POST">
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="university">University:</label></td>
+                    <td><input type="text" id="university" name="university"></td>
+                </tr>
+                <tr>
+                    <td><label for="class">Class:</label></td>
+                    <td><input type="text" id="class" name="class"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="tele">Telephone:</label></td>
+                    <td><input type="text" id="telphone" name="telephone"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address:</label></td>
+                    <td><input type="text" id="address" name="address"></td>
+                </tr>
+                <tr>
+                    <td>Hobbies?</td>
+                    <td>
+                        <label for="esports">Football</label>
+                        <input type="checkbox" id="football" name="hobby[]" value="Football">
+                        <label for="music">Music</label>
+                        <input type="checkbox" id="music" name="hobby[]" value="Music">
+                        <label for="travel">Films</label>
+                        <input type="checkbox" id="films" name="hobby[]" value="Films">
+                    </td>
+                </tr>
+                <tr><td>Agree, Disagree?</td></tr>
+                <tr>            
+                    <td>  
+                    <input type="radio" name="control" value="Agree"/>  
+                    <label for="agree">Agree</label>  
+                    <input type="radio" name="control" value="Disagree"/>  
+                    <label for="disagree">Disagree</label>  
+                    </td>  
+                </tr>
+                <tr>
+                    <td><input type="submit" id="control" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
