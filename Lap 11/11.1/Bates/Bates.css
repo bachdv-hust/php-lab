@@ -1,0 +1,38 @@
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+span {
+  float: left;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times,
+    "Times New Roman", "serif";
+  font-size: 75pt;
+}
+
+p {
+  margin-top: 5px;
+}
+
+p.rhead {
+  text-align: right;
+  margin-right: 0.5in;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+p.lhead {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+p.body {
+  text-align: justify;
+  text-indent: 0.5in;
+}
+
+p.foot {
+  margin-left: 60%;
+  line-height: 300%;
+}

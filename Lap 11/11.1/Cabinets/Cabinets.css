@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+  color: #56578c;
+}
+
+p {
+  background: linear-gradient(#fde1d8, #f9c7ca);
+  padding: 0.5in;
+  text-align: center;
+  width: 50%;
+  margin: 50px auto;
+  border-radius: 50px;
+}
+
+body {
+  background: url(../images/mountain.jpeg);
+}
+
+.banner {
+  font-size: 50pt;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+div.tb table {
+  margin: 0 auto;
+  text-align: center;
+  color: #56578c;
+}
+
+ul.item li {
+  text-align: center;
+  color: palevioletred;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff,
+    1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  font-size: 35;
+}
+
+ul.item {
+  list-style-type: none;
+}
+
+ul.item li:hover {
+  color: whitesmoke;
+  font-size: 40;
+  text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000,
+    0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000,
+    -1px 1px 0 #000000;
+}

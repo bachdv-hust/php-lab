@@ -1,0 +1,74 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+#header {
+  background: linear-gradient(#aeb1ff, #707aff);
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  text-decoration: overline;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#rightcol {
+  background: linear-gradient(#aeb1ff, #707aff);
+  float: right;
+  width: 20%;
+  height: 450px;
+  margin: 10px;
+  border-radius: 5px;
+}
+#rightcol h2 {
+  text-align: center;
+}
+
+#rightcol h2:hover {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.contentbox {
+  background: linear-gradient(#aeb1ff, #707aff);
+  width: 80%;
+  margin: 100px 25px 5px 25px;
+  border-radius: 5px;
+}
+
+ul.leftcontent li:hover {
+  text-shadow: 1px 0 0;
+}
+
+#content {
+  background: linear-gradient(-45deg, #aeb1ff, #707aff);
+  float: right;
+  width: 77%;
+  height: 450px;
+  margin: 10px 0px 10px 10px;
+  border-radius: 5px;
+}
+
+#content h2 {
+  text-align: center;
+}
+
+#content h2:hover {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer {
+  background: linear-gradient(-135deg, #aeb1ff, #707aff);
+  clear: both;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  border-radius: 10px 10px 0px 0px;
+}
